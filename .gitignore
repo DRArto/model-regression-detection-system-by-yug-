@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Generated evaluation state
+runs/
+reports/*.html
+reports/summary.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Test / build
+.pytest_cache/
+.coverage
+dist/
+build/
+*.egg-info/
