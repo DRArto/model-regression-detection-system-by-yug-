@@ -1,0 +1,165 @@
+{
+  "dataset_version": "golden-support-v1",
+  "cases": [
+    {
+      "id": "CASE-001",
+      "input": "Hi, I upgraded yesterday but I still see the free plan on my invoice. Can you check my billing?",
+      "expected_category": "billing",
+      "expected_summary": "The customer upgraded but their invoice still shows the free plan.",
+      "expected_difficulty": "easy",
+      "notes": "Clear billing issue about invoice and plan charge."
+    },
+    {
+      "id": "CASE-002",
+      "input": "Every time I upload a CSV, the page freezes and then says something went wrong.",
+      "expected_category": "technical",
+      "expected_summary": "The customer cannot upload a CSV because the page freezes and errors.",
+      "expected_difficulty": "easy",
+      "notes": "Clear product bug."
+    },
+    {
+      "id": "CASE-003",
+      "input": "I forgot my password and the reset link never came to my email.",
+      "expected_category": "account",
+      "expected_summary": "The customer cannot reset their password because the reset email never arrived.",
+      "expected_difficulty": "easy",
+      "notes": "Account access problem."
+    },
+    {
+      "id": "CASE-004",
+      "input": "Do you offer discounts for students or small nonprofits?",
+      "expected_category": "general",
+      "expected_summary": "The customer is asking whether student or nonprofit discounts are available.",
+      "expected_difficulty": "easy",
+      "notes": "General sales/policy question, not a billing error."
+    },
+    {
+      "id": "CASE-005",
+      "input": "I cancelled last week, so obviously I loved seeing another charge today. Refund please.",
+      "expected_category": "billing",
+      "expected_summary": "The customer cancelled but was charged again and wants a refund.",
+      "expected_difficulty": "hard",
+      "notes": "Sarcasm makes the intent slightly harder."
+    },
+    {
+      "id": "CASE-006",
+      "input": "login page bas load hi nahi ho raha, I need to get into my account urgently",
+      "expected_category": "technical",
+      "expected_summary": "The login page is not loading and the customer urgently needs account access.",
+      "expected_difficulty": "hard",
+      "notes": "Mixed Hindi-English; main issue is technical page loading failure."
+    },
+    {
+      "id": "CASE-007",
+      "input": "Please change the admin email from rahul@example.com to ops@example.com.",
+      "expected_category": "account",
+      "expected_summary": "The customer wants the admin email changed to a new address.",
+      "expected_difficulty": "easy",
+      "notes": "Account settings request."
+    },
+    {
+      "id": "CASE-008",
+      "input": "The API returns 401 for our production key, but the key is active in settings.",
+      "expected_category": "technical",
+      "expected_summary": "The customer gets 401 API errors even though their production key appears active.",
+      "expected_difficulty": "medium",
+      "notes": "Technical/API failure."
+    },
+    {
+      "id": "CASE-009",
+      "input": "Can someone explain the difference between the Growth and Business plans?",
+      "expected_category": "general",
+      "expected_summary": "The customer wants to understand the difference between two plans.",
+      "expected_difficulty": "medium",
+      "notes": "Pricing-adjacent but no billing problem."
+    },
+    {
+      "id": "CASE-010",
+      "input": "My teammate cannot see the project even though I invited her twice.",
+      "expected_category": "account",
+      "expected_summary": "The customer's invited teammate cannot access the project.",
+      "expected_difficulty": "medium",
+      "notes": "Could look technical, but it is permissions/account access."
+    },
+    {
+      "id": "CASE-011",
+      "input": "charged??? why 49 when website said 29",
+      "expected_category": "billing",
+      "expected_summary": "The customer is asking why they were charged 49 instead of the advertised 29.",
+      "expected_difficulty": "medium",
+      "notes": "Short, informal, price discrepancy."
+    },
+    {
+      "id": "CASE-012",
+      "input": "Your app is great. I just wanted to say thanks to the support team.",
+      "expected_category": "general",
+      "expected_summary": "The customer is thanking the support team and sharing positive feedback.",
+      "expected_difficulty": "easy",
+      "notes": "Non-issue feedback."
+    },
+    {
+      "id": "CASE-013",
+      "input": "I need the receipt for March for our finance team.",
+      "expected_category": "billing",
+      "expected_summary": "The customer needs a March receipt for their finance team.",
+      "expected_difficulty": "easy",
+      "notes": "Receipt request belongs to billing."
+    },
+    {
+      "id": "CASE-014",
+      "input": "The mobile app crashes after I tap the notification bell.",
+      "expected_category": "technical",
+      "expected_summary": "The mobile app crashes when the customer taps the notification bell.",
+      "expected_difficulty": "easy",
+      "notes": "Crash report."
+    },
+    {
+      "id": "CASE-015",
+      "input": "Delete my workspace. I am moving to another tool.",
+      "expected_category": "account",
+      "expected_summary": "The customer wants their workspace deleted because they are moving to another tool.",
+      "expected_difficulty": "easy",
+      "notes": "Account deletion request."
+    },
+    {
+      "id": "CASE-016",
+      "input": "Is there a public roadmap for upcoming features?",
+      "expected_category": "general",
+      "expected_summary": "The customer is asking whether a public product roadmap exists.",
+      "expected_difficulty": "easy",
+      "notes": "General product question."
+    },
+    {
+      "id": "CASE-017",
+      "input": "I paid for annual, but my account says trial expired. What is happening?",
+      "expected_category": "billing",
+      "expected_summary": "The customer paid annually but their account still says the trial expired.",
+      "expected_difficulty": "hard",
+      "notes": "Billing and account overlap; expected billing because payment status is central."
+    },
+    {
+      "id": "CASE-018",
+      "input": "The report export button is visible, but clicking it does nothing in Chrome.",
+      "expected_category": "technical",
+      "expected_summary": "The report export button does nothing when clicked in Chrome.",
+      "expected_difficulty": "medium",
+      "notes": "UI bug."
+    },
+    {
+      "id": "CASE-019",
+      "input": "Please add SSO access for our security group.",
+      "expected_category": "account",
+      "expected_summary": "The customer wants SSO access added for their security group.",
+      "expected_difficulty": "medium",
+      "notes": "Access/permissions request."
+    },
+    {
+      "id": "CASE-020",
+      "input": "hello???",
+      "expected_category": "general",
+      "expected_summary": "The customer sent a very short greeting without a specific issue.",
+      "expected_difficulty": "hard",
+      "notes": "Extremely short vague input."
+    }
+  ]
+}
