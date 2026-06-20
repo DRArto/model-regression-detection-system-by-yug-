@@ -1,0 +1,15 @@
+[project]
+name = "model-regression-detection"
+version = "0.1.0"
+description = "CI/CD-style regression detection for LLM prompt changes"
+requires-python = ">=3.11"
+dependencies = [
+  "openai",
+  "pydantic",
+  "PyYAML",
+  "requests",
+  "python-dotenv"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
